@@ -1,5 +1,5 @@
 # Personal-Portfolio
-  > This is personal portfolio website using MERN stack.
+![show](https://user-images.githubusercontent.com/131745544/235319466-c1e14716-cd28-4f06-8192-a38c3ee47b0c.png)
 
   ## Built With
     - React
@@ -8,6 +8,7 @@
     - CSS
     - VS code
 
+  > This is personal portfolio website using MERN stack.
   ## Live Demo
   - [Live Demo](https://brooksMiracle.netlify.app/)
 
