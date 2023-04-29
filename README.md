@@ -1,6 +1,6 @@
 # Personal-Portfolio
   > This is personal portfolio website using MERN stack.
-  ![Portfolio](https://raw.github.com/brooksMiracle/portfolio-scrap.png)
+  ![Portfolio](https://raw.github.com/brooksMiracle/portfolio-scrap.PNG)
 
   ## Built With
     - React
