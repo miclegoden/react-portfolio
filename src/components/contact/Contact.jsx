@@ -1,34 +1,10 @@
-import React, { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
 import { MdOutlineEmail } from "react-icons/md";
-import { FaSkype } from "react-icons/fa";
+import { FaSkype, FaPhone } from "react-icons/fa";
 
 import "./contact.css";
 
 const Contact = () => {
-  const [message, setMessage] = useState(false);
-  const formRef = useRef();
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setMessage(true);
-    emailjs
-      .sendForm(
-        "service_k2qawqh",
-        "template_c6rkpn6",
-        formRef.current,
-        "X7K7ebhIeOy3YwHki"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-
-    e.target.reset();
-  };
+  
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -46,6 +22,10 @@ const Contact = () => {
           <article className="contact__option">
             <FaSkype className="contact__option-icon" />
             <h5>live:.cid.aeacf9ca33be6570</h5>
+          </article>
+          <article className="contact__option">
+            <FaPhone className="contact__option-icon" />
+            <h5>+14156709297</h5>
           </article>
         </div>
       </div>
