@@ -48,13 +48,14 @@ const Experience = () => {
       >
         {experiences.map((experience) => (
           <SwiperSlide className="experience" key={experience.id}>
-            <div className="client__avatar">
+            <div className="company__avatar">
               <a>
                 <MdComputer />
               </a>
             </div>
-            <h5 className="client__name">{experience.companyName}</h5>
-            <small className="client__review">{experience.summary}</small>
+            <h5 className="role">{experience.role}</h5>
+            <h5 className="company__name">{experience.companyName}</h5>
+            <small className="summary">{experience.summary}</small>
           </SwiperSlide>
         ))}
       </Swiper>

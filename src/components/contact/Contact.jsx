@@ -25,7 +25,7 @@ const Contact = () => {
           </article>
           <article className="contact__option">
             <FaPhone className="contact__option-icon" />
-            <h5>+14156709297</h5>
+            <h5>+1-415-670-9297</h5>
           </article>
         </div>
       </div>
