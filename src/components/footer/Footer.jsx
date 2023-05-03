@@ -10,30 +10,14 @@ const Footer = () => {
   };
 
   return (
-    <footer>
-      <a href="#home" className="footer__logo">
-        Brooks-Miracle
+    <footer id="contact">
+      <a href="#contact" className="footer__logo">
+        Contact Me
       </a>
-      <ul className="permalinks">
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#skills">Skills</a>
-        </li>
-        <li>
-          <a href="#experience">Experience</a>
-        </li>
-        <li>
-          <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
+      <h4>
+        I do receive your messages and will respond asap if the valid email is
+        provided
+      </h4>
       <div className="footer__socials">
         <a
           href="https://github.com/brooksMiracle"
@@ -42,11 +26,7 @@ const Footer = () => {
         >
           <FaGithub />
         </a>
-        <a
-          href="https://t.me/WolfMiracle"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://t.me/WolfMiracle" target="_blank" rel="noreferrer">
           <FaTelegram />
         </a>
         <a

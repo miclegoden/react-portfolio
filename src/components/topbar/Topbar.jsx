@@ -4,6 +4,7 @@ import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
+import { BsListColumns } from "react-icons/bs";
 
 import "./topbar.css";
 
@@ -24,6 +25,13 @@ const Topbar = () => {
         className={activeNav === "#about" ? "active" : ""}
       >
         <AiOutlineUser />
+      </a>
+      <a
+        href="#skills"
+        onClick={() => setActiveNav("#skills")}
+        className={activeNav === "#skills" ? "active" : ""}
+      >
+        <BsListColumns />
       </a>
       <a
         href="#experience"

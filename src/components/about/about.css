@@ -11,6 +11,7 @@
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
+    margin-top: 80px;
 }
 
 .about__me-image {
