@@ -1,6 +1,6 @@
 .portfolio__container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 2.5rem;
 }
 
@@ -23,6 +23,10 @@
   height: 30%;
 }
 
+.portfolio__item-image img {
+  height: 100%;
+}
+
 .portfolio__item h3 {
   margin: 2rem 0;
 }
@@ -36,6 +40,11 @@
   display: flex;
   gap: 1rem;
   margin-bottom: 2rem;
+}
+
+.portfolio__item-cta a {
+  width: 100%;
+  text-align: center;
 }
 
 .portfolio__item-content {
